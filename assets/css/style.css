@@ -1,0 +1,19 @@
+.navbar-nav a{
+    font-family: 'Roboto',sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 35px;    
+    font-weight: 600;
+    color: #231f20;
+    letter-spacing: 1px;
+    padding: 0 10px;
+}
+.navbar-nav a:hover{
+    color: #08087f;
+}
+.navbar-nav .active{
+    color: #08087f;
+}
+.logo{
+    width: 150px;
+}
