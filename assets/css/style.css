@@ -1,3 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: .2s linear;
+  }
+  p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+  }
+  a,a:hover{
+    text-decoration: none !important; 
+    color: black;
+  }
+  a,
+  button {
+      outline: none !important;
+  }
+  ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  h1,h2,h3,h4,h5,h6 {
+    margin: 0px;
+    padding: 0px;
+  }
+  a:focus,
+  select:focus,
+  input:focus {
+      text-decoration: none !important;
+      outline: none !important;
+      box-shadow: none !important;
+      border-radius: none !important;
+  }
+  a:focus,
+  .btn:focus {
+      text-decoration: none;
+      outline: none;
+      box-shadow: none !important;
+  }
+  img{
+    vertical-align: middle;
+  }
+
+
+
 .navbar-nav a{
     font-family: 'Roboto',sans-serif;
     text-decoration: none;
@@ -17,3 +69,153 @@
 .logo{
     width: 150px;
 }
+.card_part.Active{
+    background: rgb(164,109,246);
+    background: linear-gradient(90deg, rgba(164,109,246,1) 13%, rgba(82,15,168,1) 47%);
+    padding: 60px 20px;
+    border-radius: 15px;
+}
+.card_part{
+    padding: 60px 20px;
+    border-radius: 15px;
+}
+.card_heading h4{
+    color: #fff;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.card_menu li{
+
+}
+.card_menu li a{
+ line-height: 40px;
+ color: #fff;
+ font-weight: 500;
+ font-size: 17px;
+}
+.card_icon span i{
+    font-size: 45px;
+}
+.card_part p{
+    font-size: 14px;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 500;
+  
+}
+
+/* footer_section */
+.footer_section{
+    background: #F3F3F3;
+}
+.footer_logo img{
+ margin: 0;
+ padding: 0;
+ display: inline-block;
+ width: 100%;
+}
+.footer_content p{
+color: #8D8D8D;
+font-family: "Poppins", Sans-serif;
+font-size: 18px;
+font-weight: 300;
+line-height: 25px;
+}
+.footer_menu_part2 ul{
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+.footer_menu_part2 ul li{
+    
+}
+.footer_menu_part2 ul li a{
+text-decoration: none;
+font-size: 20px;
+color: #8D8D8D;
+line-height: 45px; 
+}
+.footer_contact_heading h5{
+font-size: 18px;
+color: #8D8D8D;   
+}
+.footer_contact_heading p{
+font-size: 16px;
+color: #8D8D8D;
+font-weight: 400;
+font-family: 'Poppins', sans-serif;
+text-align: center;   
+}
+.footer_contact_heading span{
+    font-size: 16px;
+    color: #8D8D8D;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -8px;
+    display: inline-block;
+}
+.footer_contact_heading strong{
+    font-size: 16px;
+    color: #505050;;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+    text-align: center !important;
+    font-size: 17px;
+    display: inline-block;
+}
+.footer_contact_heading p a{
+    font-size: 16px;
+    color: #8D8D8D;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-align: center !important;
+    font-size: 17px;
+    display: inline-block;
+}
+
+.footer_contact_heading h6{
+    font-size: 16px;
+    color: #8D8D8D;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-align: center !important;
+    font-size: 17px;
+    display: block; 
+}
+.footer_partfour p{
+    font-size: 15px;
+    color: #8D8D8D;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    display: block;  
+}
+.footer_partfour span input[type="email"]{
+    color: #8D8D8D;
+    font-family: "Arial", Sans-serif;
+    width: 100%;
+    max-width: 100%;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 100px 100px 100px 100px;
+    padding: 17px 30px 20px 30px;
+    transition: all ease-out 0.3s;
+}
+.footer_partfour span input:hover{
+  outline: none !important;
+  border: none !important;
+  border-style: none;
+}
+.footer_partfour p input{
+  padding: 15px 25px;
+  background: #4D0AA4;
+  outline: none;
+  border: none;
+  color: #fff;
+  position: absolute;
+  right: 75px;
+  margin-top: -57px; 
+  border-radius: 100px 100px 100px 100px; 
+}
+
+
+
