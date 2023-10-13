@@ -8,6 +8,9 @@
 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- style -->
+      <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
@@ -271,7 +274,27 @@
     <div class="container my-5 overflow-hidden">
       <h2 class="collaborate-heading">We are privileged to collaborate with reputable brands and businesses.</h2>
     </div>
+    <!-- slider  -->
+    <div class="container mb-5">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper d-flex align-items-center">
+          <div class="swiper-slide"><img class="shadow p-2 rounded" src="assets/img/brands/Roseanna-Logo.png" alt=""></div>
+          <div class="swiper-slide "><img class="shadow p-2 rounded" src="assets/img/brands/Barbor-removebg-preview.png" alt=""></div>
+          <div class="swiper-slide"><img class="shadow p-2 rounded" src="assets/img/brands/Palm-Angels.png" alt=""></div>
+          <div class="swiper-slide"><img class="shadow p-2 rounded" src="assets/img/brands/Tres-Bien.png" alt=""></div>
+          <div class="swiper-slide"><img class="shadow p-2 rounded" src="assets/img/brands/Sense-Organics.png" alt=""></div>
+          <div class="swiper-slide"><img class="shadow p-2 rounded" src="assets/img/brands/Palm-Angels.png" alt=""></div>
+          <div class="swiper-slide"><img class="shadow p-2 rounded" src="assets/img/brands/Sense-Organics.png" alt=""></div>
+        </div>
+        <div class="swiper-pagination "></div>
+      </div>
+    </div>
+    
+
+
+
     <!-- collaborate section end  -->
+
 
 <!-- footer-section-started -------------------------->
 <section class="footer_section pt-5">
@@ -347,5 +370,21 @@
     <script>
       AOS.init();
     </script>
+
+    <!-- brands slider script  -->
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      centeredSlides: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
   </body>
 </html>
