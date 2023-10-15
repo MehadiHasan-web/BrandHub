@@ -375,6 +375,80 @@ text-align: center;
 
 /* collaborate css end  */
 
+
+/* Tem css start  */
+.bg-tim{
+    background-image: url(https://centurysourcingltd.com/wp-content/uploads/2020/01/backgranod-Team-section.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.tem-heading{
+    
+    font-family: 'Poppins';
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    mix-blend-mode: multiply;
+    font-size: 2em;
+    line-height: 1.5;
+}
+.tem-description{
+    text-align: center;
+    color: var(--e-global-color-text);
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    max-width: 803px;
+}
+.tim-img{
+    margin-top: -20px;
+    margin-left: -20px;
+}
+.tem-content h2{
+    background: var(--e-global-color-secondary);
+    background: -moz-linear-gradient(271deg, var(--e-global-color-secondary) 0%, var(--e-global-color-primary) 100%);
+    background: -webkit-linear-gradient(271deg, var(--e-global-color-secondary) 0%, var(--e-global-color-primary) 100%);
+    background: linear-gradient(271deg, var(--e-global-color-secondary) 0%,var(--e-global-color-primary) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Poppins", Sans-serif;    
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: -1px;
+    max-width: 579px;
+}
+
+.tem-content h5{
+    font-family: "Poppins", Sans-serif;
+    font-size: 19px;
+    text-transform: none;
+    line-height: 27px;
+}
+.tem-content p{
+    color: var(--e-global-color-text);
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+}
+.socials  i{
+    color: var(--e-global-color-primary);
+    font-size: 20px;
+}
+/* Tem css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1024px){
     .paragraph-font p{
         font-size: 14px;
