@@ -483,7 +483,36 @@ text-align: center;
     background:  #fff!important;
 }
 /* blog end  */
+/* get started */
+.started{
+    background-color: transparent;
+    background-image: linear-gradient(179deg, var(--e-global-color-secondary) 0%, var(--e-global-color-primary) 100%);
+}
+.started h2{
+    font-family: "Poppins", Sans-serif;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 66px;
+    color: #ffffff;
+    max-width: 498px;
+}
+.started button{
+    padding: 15px 39px 15px 39px;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, var(--e-global-color-5538c1c7) 0%, var(--e-global-color-14cf00be) 100%);
+    box-shadow: 0px 11px 35px 0px rgba(255,225,50,0.65);
+    text-shadow: 0px 0px 10px rgba(0,0,0,0);
+    text-transform: uppercase;
+}
+.started button:hover{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, var(--e-global-color-434e96be) 0%, var(--e-global-color-367fa83) 100%);
+    color: white;
+    box-shadow: 0px 6px 35px 0px rgba(0,0,0,0.56);
 
+    /* transform: translate(-50%, -50%) scale(1, 1); */
+}
+/* get end  */
 
 
 
