@@ -532,7 +532,16 @@ text-align: center;
 /* brands end */
 
 
+/* shop css  */
+.shoping-card:hover{
+    background-color: #08ada7;;
+    color: white;
+    cursor: pointer;
+}
 
+.shoping-card .card-body p{
+    font-size: 14px;
+}
 
 
 
