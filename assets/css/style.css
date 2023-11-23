@@ -544,7 +544,18 @@ text-align: center;
 }
 
 
-
+/* shop 2 css  */
+.product .wished{
+    display: none;    
+}
+.product .wished{
+    transition: transform .2s;
+}
+.product:hover .wished{
+    transform: scale(1.5); 
+    display: block;
+    
+}
 
 
 
